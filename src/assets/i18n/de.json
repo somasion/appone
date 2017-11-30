@@ -8,9 +8,9 @@
   "SIGNUP": "Registrieren",
   "CANCEL_BUTTON": "Schließen",
 
-  "TAB1_TITLE": "Artikel",
-  "TAB2_TITLE": "Suche",
-  "TAB3_TITLE": "Einstellung",
+  "TAB1_TITLE": "Mein Tag",
+  "TAB2_TITLE": "Aufgaben",
+  "TAB3_TITLE": "Mitteilungen",
 
   "MAP_TITLE": "Karte",
 
@@ -25,7 +25,8 @@
 
   "TUTORIAL_CONTINUE_BUTTON": "Fortfahren",
 
-  "WELCOME_INTRO": "Der Startpunkt für Deine nächste tolle Ionic App",
+  "WELCOME_INTRO1": "Bist du neu hier?",
+  "WELCOME_INTRO2": "Hast du bereits ein Konto?",
 
   "SETTINGS_TITLE": "Einstellungen",
   "SETTINGS_OPTION1": "Option 1",
@@ -44,12 +45,12 @@
   "SIGNUP_ERROR": "Fehler beim Registrieren, bitte überprüfe deine Informationen und versuche es erneut.",
   "SIGNUP_BUTTON": "Registrieren",
 
-  "LIST_MASTER_TITLE": "Artikel",
+  "LIST_MASTER_TITLE": "Mein Tag",
 
   "ITEM_CREATE_TITLE": "Neuer Artikel",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Artikel hinzufügen",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Bild hinzufügen",
 
-  "CARDS_TITLE": "Social",
+  "CARDS_TITLE": "Mitteilungen",
 
   "SEARCH_TITLE": "Suche",
   "SEARCH_PLACEHOLDER": "Suche in der Artikel-Liste, z.B. \"Donald Duck\""

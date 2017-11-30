@@ -1,19 +1,55 @@
 <ion-header>
-
   <ion-navbar>
     <ion-title>{{ 'LIST_MASTER_TITLE' | translate }}</ion-title>
-
-    <ion-buttons end>
+    <!--<ion-buttons end>
       <button ion-button icon-only (click)="addItem()">
         <ion-icon name="add"></ion-icon>
       </button>
-    </ion-buttons>
+    </ion-buttons>-->
   </ion-navbar>
-
 </ion-header>
 
 <ion-content>
 
+	<p padding-left>Donnerstag, 30. November 2017</p>
+
+	<ion-card *ngFor="let item of currentItems">
+
+    <ion-item>
+			<ion-icon name="{{item.icon}}" item-start large></ion-icon>
+    	<h2>{{item.name}}</h2>
+    	<p>{{item.about}}</p>
+		</ion-item>
+
+		<ion-item>
+			<ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
+    	<button ion-button (click)="openItem(item)" icon-left clear item-end>
+      	Mehr
+    	</button>
+		</ion-item>
+
+	</ion-card>
+
+	<p padding-left>Freitag, 01. Dezember 2017</p>
+
+	<ion-card *ngFor="let item of currentItems">
+
+    <ion-item>
+			<ion-icon name="book" item-start large></ion-icon>
+    	<h2>{{item.name}}</h2>
+    	<p>{{item.about}}</p>
+		</ion-item>
+
+		<ion-item>
+			<ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
+    	<button ion-button (click)="openItem(item)" icon-left clear item-end>
+      	Mehr
+    	</button>
+		</ion-item>
+
+	</ion-card>
+
+	<!--
   <ion-list>
     <ion-item-sliding *ngFor="let item of currentItems">
       <button ion-item (click)="openItem(item)">
@@ -32,4 +68,5 @@
       </ion-item-options>
     </ion-item-sliding>
   </ion-list>
+	-->
 </ion-content>

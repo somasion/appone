@@ -7,53 +7,62 @@ export class Items {
   items: Item[] = [];
 
   defaultItem: any = {
-    "name": "Burt Bear",
+    "name": "Titel",
     "profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
+		"icon": "star",
+    "about": "00:00 - 00:00",
   };
 
 
   constructor() {
     let items = [
       {
-        "name": "Burt Bear",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "Burt is a Bear."
+				"name": "Freiarbeit",
+		    "profilePic": "assets/img/speakers/bear.jpg",
+				"icon": "filing",
+		    "about": "08:00 - 08:45",
       },
       {
-        "name": "Charlie Cheetah",
-        "profilePic": "assets/img/speakers/cheetah.jpg",
-        "about": "Charlie is a Cheetah."
+				"name": "Freiarbeit",
+		    "profilePic": "assets/img/speakers/bear.jpg",
+				"icon": "filing",
+		    "about": "08:45 - 09:15",
       },
       {
-        "name": "Donald Duck",
-        "profilePic": "assets/img/speakers/duck.jpg",
-        "about": "Donald is a Duck."
+				"name": "Pause",
+		    "profilePic": "assets/img/speakers/bear.jpg",
+				"icon": "sunny",
+		    "about": "09:15 - 09:30",
       },
       {
-        "name": "Eva Eagle",
-        "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "Eva is an Eagle."
+				"name": "Sachunterricht",
+		    "profilePic": "assets/img/speakers/bear.jpg",
+				"icon": "book",
+		    "about": "00:00 - 00:00",
       },
       {
-        "name": "Ellie Elephant",
-        "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "Ellie is an Elephant."
+				"name": "Sachunterricht",
+		    "profilePic": "assets/img/speakers/bear.jpg",
+				"icon": "book",
+		    "about": "00:00 - 00:00",
       },
       {
-        "name": "Jonathan",
-        "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "Jona gefällt dieses Bild."
+				"name": "Pause",
+		    "profilePic": "assets/img/speakers/bear.jpg",
+				"icon": "sunny",
+		    "about": "00:00 - 00:00",
       },
       {
-        "name": "Paul Puppy",
-        "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Paul is a Puppy."
-	},
-	  {
-        "name": "Daniel",
-        "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Mein erster Artikel."
+				"name": "Schwimmen",
+		    "profilePic": "assets/img/speakers/bear.jpg",
+				"icon": "help-buoy",
+		    "about": "00:00 - 00:00",
+			},
+			{
+				"name": "Schwimmen",
+				"profilePic": "assets/img/speakers/bear.jpg",
+				"icon": "help-buoy",
+				"about": "00:00 - 00:00",
       }
     ];
 
