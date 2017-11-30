@@ -1,0 +1,8 @@
+{
+  "name": "appone",
+  "app_id": "4be2b59f",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
