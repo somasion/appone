@@ -41,14 +41,19 @@ export class Items {
         "about": "Ellie is an Elephant."
       },
       {
-        "name": "Molly Mouse",
+        "name": "Jonathan",
         "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "Molly is a Mouse."
+        "about": "Jona gefällt dieses Bild."
       },
       {
         "name": "Paul Puppy",
         "profilePic": "assets/img/speakers/puppy.jpg",
         "about": "Paul is a Puppy."
+	},
+	  {
+        "name": "Daniel",
+        "profilePic": "assets/img/speakers/puppy.jpg",
+        "about": "Mein erster Artikel."
       }
     ];
 

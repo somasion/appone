@@ -3,12 +3,12 @@
 
   "NAME": "Name",
   "PASSWORD": "Passwort",
-  "EMAIL": "Email",
+  "EMAIL": "E-Mail",
   "LOGIN": "Anmelden",
   "SIGNUP": "Registrieren",
   "CANCEL_BUTTON": "Schließen",
 
-  "TAB1_TITLE": "Items",
+  "TAB1_TITLE": "Artikel",
   "TAB2_TITLE": "Suche",
   "TAB3_TITLE": "Einstellung",
 
