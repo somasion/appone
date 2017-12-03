@@ -11,6 +11,7 @@
   "TAB1_TITLE": "Mein Tag",
   "TAB2_TITLE": "Aufgaben",
   "TAB3_TITLE": "Mitteilungen",
+	"TAB4_TITLE": "Menü",
 
   "MAP_TITLE": "Karte",
 
@@ -46,6 +47,7 @@
   "SIGNUP_BUTTON": "Registrieren",
 
   "LIST_MASTER_TITLE": "Mein Tag",
+	"MYDAY_TEACHER_TITLE": "Mein Tag (Lehrer)",
 
   "ITEM_CREATE_TITLE": "Neuer Artikel",
   "ITEM_CREATE_CHOOSE_IMAGE": "Bild hinzufügen",

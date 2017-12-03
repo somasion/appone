@@ -20,13 +20,8 @@ export class Items {
 				"name": "Freiarbeit",
 		    "profilePic": "assets/img/speakers/bear.jpg",
 				"icon": "filing",
-		    "about": "08:00 - 08:45",
-      },
-      {
-				"name": "Freiarbeit",
-		    "profilePic": "assets/img/speakers/bear.jpg",
-				"icon": "filing",
-		    "about": "08:45 - 09:15",
+				"note": "Notiz",
+		    "about": "08:00 - 09:15",
       },
       {
 				"name": "Pause",
@@ -41,23 +36,11 @@ export class Items {
 		    "about": "00:00 - 00:00",
       },
       {
-				"name": "Sachunterricht",
-		    "profilePic": "assets/img/speakers/bear.jpg",
-				"icon": "book",
-		    "about": "00:00 - 00:00",
-      },
-      {
 				"name": "Pause",
 		    "profilePic": "assets/img/speakers/bear.jpg",
 				"icon": "sunny",
 		    "about": "00:00 - 00:00",
       },
-      {
-				"name": "Schwimmen",
-		    "profilePic": "assets/img/speakers/bear.jpg",
-				"icon": "help-buoy",
-		    "about": "00:00 - 00:00",
-			},
 			{
 				"name": "Schwimmen",
 				"profilePic": "assets/img/speakers/bear.jpg",
